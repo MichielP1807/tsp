@@ -1,0 +1,13 @@
+{
+  "name": "tdw-server",
+  "version": "1.0.0",
+  "description": "Identity server",
+  "main": "index.js",
+  "scripts": {
+    "serve": "bun --watch ./server.ts"
+  },
+  "dependencies": {
+    "@digitalbazaar/ed25519-multikey": "^1.1.0",
+    "trustdidweb-ts": "https://github.com/bcgov/trustdidweb-ts.git"
+  }
+}
