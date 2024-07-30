@@ -8,6 +8,9 @@
   },
   "dependencies": {
     "@digitalbazaar/ed25519-multikey": "^1.1.0",
+    "@digitalbazaar/ed25519-verification-key-2020": "^4.1.0",
+    "@digitalbazaar/x25519-key-agreement-key-2020": "^3.0.1",
+    "@prisma/client": "^5.17.0",
     "trustdidweb-ts": "https://github.com/bcgov/trustdidweb-ts.git"
   }
 }
